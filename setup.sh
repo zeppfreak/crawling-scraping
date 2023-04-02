@@ -2,6 +2,7 @@
 ## mac
 brew tap mongodb/brew
 brew install mongodb-community
+brew install mongodb-community-shell # mongo command
 
 sudo mkdir -p /usr/local/var/mongodb
 sudo chown -R $USER /usr/local/var/mongodb
