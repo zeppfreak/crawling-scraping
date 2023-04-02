@@ -7,7 +7,7 @@ sudo mkdir -p /usr/local/var/mongodb
 sudo chown -R $USER /usr/local/var/mongodb
 sudo mkdir -p /usr/local/var/log/mongod
 sudo chown -R $USER /usr/local/var/log/mongodb
-vim /usr/local/etc/mongod.conf # set systemLog.destination and storage.dbPath
+cat mongod.conf.dev > /usr/local/etc/mongod.conf # set systemLog.destination and storage.dbPath
 
 # install python library
 pip install flake8 black isort mypy
