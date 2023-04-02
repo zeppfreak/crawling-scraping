@@ -1,0 +1,13 @@
+systemLog:
+   destination: file
+   path: "/usr/local/var/log/mongodb/mongo.log"
+   logAppend: true
+storage:
+   dbPath: /usr/local/var/mongodb
+   journal:
+      enabled: true
+net:
+   bindIp: 127.0.0.1
+   port: 27017
+setParameter:
+   enableLocalhostAuthBypass: false
