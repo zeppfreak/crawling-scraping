@@ -6,7 +6,7 @@ db = client.scraping
 collection = db.books
 collection.delete_many({})
 
-tree = lxml.html.parse('db.html')
+tree = lxml.html.parse('dp.html')
 html = tree.getroot()
 html.make_links_absolute('http://gihyo.jp/')
 
