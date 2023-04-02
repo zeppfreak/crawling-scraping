@@ -13,3 +13,4 @@ cat mongod.conf.dev > /usr/local/etc/mongod.conf # set systemLog.destination and
 # install python library
 pip install flake8 black isort mypy
 pip install pymongo
+pip install lxml --index-url=https://pypi.python.org/simple/
